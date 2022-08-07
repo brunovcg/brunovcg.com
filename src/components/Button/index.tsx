@@ -4,7 +4,7 @@ import { Styled } from './styles'
 function Button({ text }: IButton) {
   return (
     <Styled>
-      <button>{text}</button>
+      <button type='button'>{text}</button>
     </Styled>
   )
 }
