@@ -2,7 +2,8 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 2020,
-    sourceType: 'module'
+    sourceType: 'module',
+    project: './tsconfig.json'
   },
   settings: {
     react: {
@@ -11,6 +12,9 @@ module.exports = {
     }
   },
   extends: [
+    'airbnb',
+    'airbnb/hooks',
+    'airbnb-typescript',
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
     'plugin:@typescript-eslint/recommended',
@@ -27,6 +31,9 @@ module.exports = {
     'no-unused-vars': 'off',
     '@typescript-eslint/no-unused-vars': ['warn'],
     '@typescript-eslint/no-var-requires': 'off',
+    '@typescript-eslint/space-before-blocks': 'off',
+    'import/space-before-blocks': 'off',
+    'import/prefer-default-export': 'off',
     'react/prop-types': 'off',
     'react/jsx-uses-react': 'off',
     'react/react-in-jsx-scope': 'off',
