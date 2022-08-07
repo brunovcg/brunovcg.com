@@ -5,6 +5,8 @@ export default createGlobalStyle`
     :root {
         --white: #fff;
         --black: #000;
+        --blue: #202235;
+        --red: #FA4D5A;
     }
 
     html, body, div, span, applet, object, iframe,
@@ -28,6 +30,7 @@ export default createGlobalStyle`
     	vertical-align: baseline;
       box-sizing: border-box;
       outline: none;
+      color: var(--white)
     }
 /* HTML5 display-role reset for older browsers */
     article, aside, details, figcaption, figure,
@@ -39,7 +42,12 @@ export default createGlobalStyle`
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
     }
-    ol, ul {
+    h1{
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 800;
+      font-size: 25px;
+    }
+    ol, ul, li {
     	list-style: none;
     }
     blockquote, q {

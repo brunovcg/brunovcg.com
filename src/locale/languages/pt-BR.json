@@ -1,0 +1,13 @@
+{
+  "header": {
+    "title": "brunovcg.com",
+    "nav": {
+      "options": {
+        "home": "Home",
+        "about": "Sobre",
+        "portfolio": "Portfolio",
+        "contact": "Contato"
+      }
+    }
+  }
+}
